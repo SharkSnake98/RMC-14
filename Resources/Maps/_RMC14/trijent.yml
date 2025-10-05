@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 264.0.1
+  engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 08/30/2025 13:48:58
-  entityCount: 32948
+  time: 09/18/2025 18:50:17
+  entityCount: 32950
 maps:
 - 1
 grids:
@@ -142607,6 +142607,20 @@ entities:
     - type: Transform
       pos: 86.5,-117.5
       parent: 1
+- proto: RMCMapInsertTrijentCLFPods
+  entities:
+  - uid: 32950
+    components:
+    - type: Transform
+      pos: 116.5,-118.5
+      parent: 1
+- proto: RMCMapInsertTrijentCrashlandingSPPBar
+  entities:
+  - uid: 32949
+    components:
+    - type: Transform
+      pos: 69.5,-119.5
+      parent: 1
 - proto: RMCMapInsertTrijentGreenBridge
   entities:
   - uid: 14155
@@ -161150,6 +161164,62 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 197.5,-106.5
+      parent: 1
+- proto: RMCWallInvisibleBulletPassible
+  entities:
+  - uid: 32575
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 108.5,-6.5
+      parent: 1
+  - uid: 32576
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 107.5,-6.5
+      parent: 1
+  - uid: 32577
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 110.5,-6.5
+      parent: 1
+  - uid: 32578
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 111.5,-6.5
+      parent: 1
+  - uid: 32579
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 112.5,-6.5
+      parent: 1
+  - uid: 32580
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 113.5,-6.5
+      parent: 1
+  - uid: 32581
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 114.5,-6.5
+      parent: 1
+  - uid: 32582
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 109.5,-6.5
+      parent: 1
+  - uid: 32583
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 107.5,-6.5
       parent: 1
 - proto: RMCWallPrisonReinforced
   entities:
@@ -237489,62 +237559,6 @@ entities:
     components:
     - type: Transform
       pos: 50.5,-211.5
-      parent: 1
-- proto: WallInvisible
-  entities:
-  - uid: 32575
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 108.5,-6.5
-      parent: 1
-  - uid: 32576
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 107.5,-6.5
-      parent: 1
-  - uid: 32577
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 110.5,-6.5
-      parent: 1
-  - uid: 32578
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 111.5,-6.5
-      parent: 1
-  - uid: 32579
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 112.5,-6.5
-      parent: 1
-  - uid: 32580
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 113.5,-6.5
-      parent: 1
-  - uid: 32581
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 114.5,-6.5
-      parent: 1
-  - uid: 32582
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 109.5,-6.5
-      parent: 1
-  - uid: 32583
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 107.5,-6.5
       parent: 1
 - proto: WallXenoResin
   entities:

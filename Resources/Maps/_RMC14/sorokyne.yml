@@ -47713,7 +47713,7 @@ entities:
     - type: Transform
       pos: 119.5,61.5
       parent: 1
-- proto: CMApc
+- proto: CMApcNoPower
   entities:
   - uid: 246
     components:
